@@ -43,7 +43,7 @@ func resourceSoftLayerScaleGroup() *schema.Resource {
 		Importer: &schema.ResourceImporter{},
 
 		Schema: map[string]*schema.Schema{
-			"id": {
+			"rid": {
 				Type:     schema.TypeInt,
 				Computed: true,
 			},

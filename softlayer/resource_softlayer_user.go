@@ -27,7 +27,7 @@ func resourceSoftLayerUser() *schema.Resource {
 		Importer: &schema.ResourceImporter{},
 
 		Schema: map[string]*schema.Schema{
-			"id": &schema.Schema{
+			"rid": &schema.Schema{
 				Type:     schema.TypeInt,
 				Computed: true,
 			},

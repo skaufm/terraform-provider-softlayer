@@ -26,7 +26,7 @@ func resourceSoftLayerObjectStorageAccount() *schema.Resource {
 		Importer: &schema.ResourceImporter{},
 
 		Schema: map[string]*schema.Schema{
-			"id": &schema.Schema{
+			"rid": &schema.Schema{
 				Type:     schema.TypeString,
 				Computed: true,
 			},
